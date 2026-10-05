@@ -2,7 +2,6 @@ import pandas as pd
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.naive_bayes import GaussianNB, MultinomialNB
 
-# 1. Dataset
 texts = [
     "Win free money now", 
     "Claim your urgent prize", 

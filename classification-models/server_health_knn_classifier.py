@@ -4,7 +4,6 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.metrics import accuracy_score, confusion_matrix, classification_report
 
-# 1. Dataset
 data = {
     'CPU_Usage': [15, 85, 20, 95, 30, 90, 25, 88, 10, 92],
     'RAM_Usage': [30, 90, 25, 98, 40, 85, 35, 92, 20, 94],
