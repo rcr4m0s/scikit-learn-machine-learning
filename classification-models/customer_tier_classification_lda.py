@@ -7,7 +7,7 @@ data = {
     'Annual_Spend_k':     [10, 15, 20, 50, 60, 55, 120, 140, 110],
     'Purchase_Frequency': [5,  8,  6,  20, 25, 22, 50,  60,  55],
     'Account_Age_Years':  [1,  1,  2,  3,  4,  3,  6,   8,   7],
-    'Customer_Tier':      [0,  0,  0,  1,  1,  1,  2,   2,   2]  # 0=Standard, 1=Premium, 2=VIP
+    'Customer_Tier':      [0,  0,  0,  1,  1,  1,  2,   2,   2] 
 }
 
 df = pd.DataFrame(data)
